@@ -1,0 +1,162 @@
+#items{
+    background-color: #e2e2e2;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: #969696;
+    box-sizing: border-box;
+    float: left;
+    left: 0px;
+    min-height: 300px;
+    position: relative;
+    top: 0px;
+    width: 15%;
+}
+.item{
+   
+    border-color: #1489b7;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 2px;
+    padding: 10px 0px 10px 40px;
+    text-align: left;
+    transition: all 0.5s;
+    width: 80%;
+}
+#content{
+    box-sizing: border-box;
+    float: right;
+    right: 0px;
+    min-height: 300px;
+    position: relative;
+    top: 0px;
+    width: 85%;
+}
+iframe{
+    box-sizing: border-box;
+    min-height: 300px;
+    overflow: hidden;
+    width: 99%;
+}
+#header{
+    background-color: #14a8b7;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    min-width: 800px;
+    overflow: visible;
+}
+.nav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 140px;
+    z-index: 1; /*z-index respecto al menu del navegador*/
+}
+.user_name{
+    color: #FFF;
+    font-size: 0.9em;
+    font-weight: bolder;
+    height: 50px;
+    margin: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 120px;
+    z-index: 1;
+}
+.logo{
+    width: 200px;
+    height: 70px;
+    background-image: url('../images/Health Care.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 0px 0px 20px;
+    float: left;
+}
+.borde{
+    background-color: #e3ea00;
+    height: 10px;
+    width: 100%;
+}
+#footer{
+    background-color: #14a8b7;
+    color: #FFF;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+.footer_izq{
+    float: left;
+    margin-left: 20px;
+}
+.footer_der{
+    float: right;
+    direction: rtl;
+    margin-right: 20px;
+}
+.limpiar{
+    clear: both;
+}
+hr{
+    border-color: #1489b7;
+}
+/*Logos*/
+.icon{
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+.icon_articulos{
+    background-image: url('../images/icons/icon_articulo.png');
+}
+.icon_cliente{
+    background-image: url('../images/icons/icon_cliente.png');
+}
+.icon_compra{
+    background-image: url('../images/icons/icon_compra.png');
+}
+.icon_venta{
+    background-image: url('../images/icons/icon_venta.png');
+}
+.icon_consulta{
+    background-image: url('../images/icons/icon_consulta.png');
+}
+.icon_nota{
+    background-image: url('../images/icons/icon_nota.png');
+}
+.navbar{
+    background-color: #14a8b7;    
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+}
+
+#navbarSupportedContent{
+    margin: 2%;
+}
+
+.nav-item.dropdown.show > a::before {
+    display: none;
+    background-color: #e3ea00;
+}
+
+.menu {
+    list-style-type: none;
+}
+div.box
+{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}

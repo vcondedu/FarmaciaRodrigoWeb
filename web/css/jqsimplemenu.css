@@ -1,0 +1,132 @@
+.menu, .menu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    line-height: 2.5em;
+}
+.menu a
+{
+    text-decoration: none;
+}
+.menu > li
+{
+    margin-left: 2px;/*espaciado entre botones*/
+    background-color: #1486b7;
+    border-radius: 0px 0px 5px 5px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 15px 0px #000000;
+    color: #FFF;
+}
+.menu > li:first
+{
+    margin-left:0px!important;
+}
+/*
+.menu > li:hover{
+    background-color: #e3ea00;
+    box-shadow: none;
+    padding-top: 38px;
+    color: #000000;
+    border-radius: 5px 5px 0px 0px;
+}*/
+.menu > li > a     /*Botones del Nav*/
+{
+    padding: 0px 10px 0px 10px;
+    margin: 0;
+    width: 100%;
+    color: inherit; /*Fuente en Blanco*/
+    font-weight: inherit;/*Fuente Bold*/
+    font-size: 0.85em;/*Tamaño de fuente*/
+}
+div.box
+{
+    position: absolute;
+    z-index: -1;
+    /*
+    background-color:#1486b7; Fondo degradado para boton menu
+    border-radius: 8px 8px 0px 0px; Radio de borde */
+    left: 0;
+    top: 0;
+}
+li.pull-down
+{
+    padding-right:6px;
+    }
+li.pull-down > a
+{
+    background-image: url('../images/jqsimplemenu/darrow.png');
+    background-position: 96% 75%;
+    background-repeat: no-repeat;
+    padding-right: 20px;/*espacio entre flecha y opcion*/
+}
+li.right-menu > a
+{
+    background-image: url('../images/jqsimplemenu/rarrow.png');
+    background-position: 83% 45%;
+    background-repeat: no-repeat;
+}
+.menu a.selected
+{
+    background-color: #75CDD2;
+    border-radius: 0px 4px 4px 4px;
+    -moz-border-radius: 0px 4px 4px 4px;
+    -webkit-border-radius: 0px 4px 4px 4px;
+}
+.menu li
+{
+    float: left;
+    position: relative;
+}
+
+.menu ul
+{
+    position: absolute;
+    display: none;
+    width: 180px;
+    top: 2.5em; /*padding-right: 10px;*/
+    background-color:#FFF;/*Fondo de opciones*/ /*-moz-opacity: .50;     filter: alpha(opacity=50);     opacity: .50;*/
+    border-radius: 0px 4px 4px 4px;
+}
+
+.menu li ul a
+{
+    width: 180px;
+    height: auto;
+    float: left;
+    color: #b3b3b3;/*Color de fuente de opciones*/
+    padding: 0 10px;
+    transition: all 0.5s;/*Transition*/
+}
+.menu li ul li
+{
+    padding: 0;
+    margin: 0;
+}
+.menu ul ul
+{
+    top: auto;
+}
+
+.menu li ul ul
+{
+    left: 180px; /*margin: 0px 0 0 10px;*/
+}
+.menu-item-selected > a
+{
+    background-color: #1486b7;;/*Color de fondo de opciones*/
+}
+
+/*
+.menu-item-selected > a:hover
+{
+    border-left: solid 5px #1486b7;
+    font-weight: bold;
+    color: #FFF !important;
+    box-shadow: 3px 4px 30px 0px hsl(100,0%,0%);
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+*/
+

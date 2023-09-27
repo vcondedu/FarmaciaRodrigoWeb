@@ -1,0 +1,88 @@
+.table1{
+    background-color: #e3e3e3;
+    padding: 0px 0px 10px 0px;
+    border: solid 2px #b3b3b3;
+    border-radius: 5px;
+    font-size: 1em;
+}
+select{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b3b3b3;
+    padding: 3px 5px 3px 5px;
+    width: auto;
+    min-width: 210px;
+}
+textarea{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b3b3b3;
+    padding: 3px 5px 3px 5px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 60px;
+    max-height: 60px;
+}
+input[type=text]{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b3b3b3;
+    padding: 3px 5px 3px 5px;
+    width: 200px;
+}
+input[type=text]:focus,select:focus{
+    background-color: #feff9d;
+}
+input.txtcod{
+    background-color: #ffafaf;
+    border-color: #14a8b7;
+}
+.table1 td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.head{
+    background: #14a8b7;
+    height: 30px;
+    color: #FFF;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
+.error{
+    color: #cc0000;
+}
+.hecho{
+    color: #00d900;
+}
+
+.btnlisto{
+                float: right;
+                padding: 5px 40px 5px 10px;
+                border: solid 2px #14a8b7;
+                background-color: #14a8b7;
+                color: #FFF;
+                text-align: center;
+                cursor: pointer;
+            }
+            .btnlisto:hover{
+                background-color: #FF0000;
+                border-color: #FF0000;
+            }
+            .btnlisto:active{
+                background-color: #0000ff;
+                border-color: #0000ff;
+            }
+            .listo{
+                background-image: url('../images/icons/icon_listo.png');
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+            .cancel{
+                background-image: url('../images/icons/icon_cancel.png');
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+.m{
+    color: #ffa900;
+}

@@ -1,0 +1,81 @@
+body{
+    background-image: url('../images/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+#content{
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    font-family: 'Impact';
+    font-size: 3em;
+    margin: 30px 50px;
+    min-height: 300px;
+    padding: 20px 30px;
+    width: 500px;
+}
+#content div{
+    font-size: 0.6em;
+}
+#content div + div{
+    color: rgb(255,233,0);
+    text-shadow: 1px 1px 3px #000;
+}
+#header{
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    background-color: #14a8b7;
+    overflow: hidden;
+}
+#header form label{
+    color: #FFF;
+    display: block;
+}
+#header form img{
+    border-style: solid;
+    border-width: 2px 5px 2px 5px;
+    border-color: #14a8b7;
+}
+.msg{
+    font-size: 0.85em;
+}
+.header_der{
+    float: right;
+    margin-right: 20px;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    background-image: url('../images/Health Care.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 0px 0px 20px;
+    float: left;
+}
+.borde{
+    background-color: #0073ea;
+    height: 10px;
+    width: 100%;
+}
+#footer{
+    background-color: #14a8b7;
+    color: #FFF;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+.footer_izq{
+    float: left;
+    margin-left: 20px;
+}
+.footer_der{
+    float: right;
+    direction: rtl;
+    margin-right: 20px;
+}
+.limpiar{
+    clear: both;
+}
+hr{
+    border-color: #0073ea;
+}
